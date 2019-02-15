@@ -20,12 +20,12 @@ public class Cw1 {
         key = scanner.nextInt();
         switch (key) {
             case 1:
-                System.out.printf("Pole: &.2f ", Math.PI * Math.pow(promien, 2));
+                System.out.printf("Pole: %.2f ", Math.PI * Math.pow(promien, 2));
                 break;
             case 2:
-                System.out.printf("Obwód &.2f \n\n", Math.PI * 2 * promien);
+                System.out.printf("Obwód %.2f \n\n", Math.PI * 2 * promien);
             case 3:
-                System.out.printf("Sfera: &.2f \n\n", 4 * Math.PI * Math.pow(promien, 3) / 3);
+                System.out.printf("Sfera: %.2f \n\n", 4 * Math.PI * Math.pow(promien, 3) / 3);
                 break;
             case 0:
                 System.out.println("Wyjście\n");
